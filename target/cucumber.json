@@ -1,0 +1,295 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-29T03:23:18.678Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4885593800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test Case to verify Calculator functionality",
+        "description": "",
+        "id": "calculator-functionality;test-case-to-verify-calculator-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 954408700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 444445200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497547400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter two numbers \"4\" and \"3\" with operator \"+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"+\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2032606100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate output \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-29T03:23:27.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3612315900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test Case to verify Calculator functionality",
+        "description": "",
+        "id": "calculator-functionality;test-case-to-verify-calculator-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1205772500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 428346200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 443141100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter two numbers \"8\" and \"2\" with operator \"-\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"-\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2031646800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate output \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-29T03:23:35.423Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3398834500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Test Case to verify Calculator functionality",
+        "description": "",
+        "id": "calculator-functionality;test-case-to-verify-calculator-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1026050400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 361414900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376614700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter two numbers \"5\" and \"2\" with operator \"*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"*\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2023499400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate output \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.cucumber.stepdefcode.DataDrivenTC.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataDriven"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Functionality",
+    "description": "",
+    "id": "calculator-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/DataDrivenTest.feature",
+    "tags": []
+  }
+]
